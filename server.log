@@ -1,0 +1,296 @@
+
+> oscilloscope-project@0.0.0 dev
+> vite --port 3000
+
+
+  VITE v5.4.21  ready in 114 ms
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://192.168.1.101:3000/
+10:51:02 PM [vite] vite.config.ts changed, restarting server...
+10:51:02 PM [vite] server restarted.
+11:00:05 PM [vite] hmr update /src/App.css
+11:00:06 PM [vite] hmr update /src/components/Knob.css
+11:00:07 PM [vite] hmr update /src/components/Oscilloscope.tsx
+11:00:27 PM [vite] hmr update /src/App.tsx
+11:00:28 PM [vite] hmr update /src/index.css
+11:01:03 PM [vite] hmr update /src/index.css
+11:01:03 PM [vite] hmr update /src/App.tsx
+11:01:03 PM [vite] hmr update /src/components/Oscilloscope.tsx
+11:01:03 PM [vite] hmr update /src/components/Knob.css
+11:01:03 PM [vite] hmr update /src/App.css
+11:02:27 PM [vite] hmr update /src/index.css
+11:02:27 PM [vite] hmr update /src/App.css
+11:02:34 PM [vite] hmr update /src/index.css
+11:02:34 PM [vite] hmr update /src/App.css
+11:03:13 PM [vite] hmr update /src/App.css
+11:05:14 PM [vite] hmr update /src/components/Oscilloscope.tsx
+11:05:14 PM [vite] hmr update /src/App.css
+11:05:20 PM [vite] vite.config.ts changed, restarting server...
+11:05:20 PM [vite] server restarted.
+11:05:24 PM [vite] hmr update /src/App.css
+11:05:24 PM [vite] hmr update /src/components/Oscilloscope.tsx
+11:06:39 PM [vite] hmr update /src/components/Knob.tsx
+11:07:25 PM [vite] hmr update /src/components/Oscilloscope.tsx
+11:07:25 PM [vite] hmr update /src/App.css
+11:07:57 PM [vite] hmr update /src/components/Oscilloscope.tsx
+11:08:11 PM [vite] hmr update /src/components/Oscilloscope.tsx
+11:09:52 PM [vite] hmr update /src/components/Oscilloscope.tsx
+11:10:35 PM [vite] hmr update /src/components/Knob.tsx
+11:10:50 PM [vite] vite.config.ts changed, restarting server...
+11:10:50 PM [vite] server restarted.
+11:10:52 PM [vite] hmr update /src/components/Knob.tsx
+11:10:54 PM [vite] vite.config.ts changed, restarting server...
+11:10:54 PM [vite] server restarted.
+11:10:56 PM [vite] hmr update /src/components/Oscilloscope.tsx
+11:10:58 PM [vite] hmr update /src/components/Oscilloscope.tsx
+11:11:29 PM [vite] hmr update /src/components/Oscilloscope.tsx
+11:11:39 PM [vite] hmr update /src/components/Oscilloscope.tsx
+11:11:52 PM [vite] vite.config.ts changed, restarting server...
+11:11:52 PM [vite] server restarted.
+11:12:09 PM [vite] hmr update /src/components/Oscilloscope.tsx
+11:13:01 PM [vite] hmr update /src/components/Oscilloscope.tsx
+11:13:11 PM [vite] hmr update /src/components/Oscilloscope.tsx
+11:16:51 PM [vite] hmr update /src/components/Oscilloscope.tsx
+11:17:08 PM [vite] hmr update /src/components/Oscilloscope.tsx
+11:17:50 PM [vite] hmr update /src/App.css
+11:17:50 PM [vite] hmr update /src/App.css
+11:18:12 PM [vite] hmr update /src/App.css
+11:18:12 PM [vite] hmr update /src/App.css
+11:18:28 PM [vite] hmr update /src/components/Oscilloscope.tsx
+11:18:28 PM [vite] hmr update /src/App.css
+11:20:47 PM [vite] hmr update /src/components/Oscilloscope.tsx
+11:20:47 PM [vite] hmr update /src/App.css
+11:22:49 PM [vite] hmr update /src/components/Knob.tsx
+11:23:01 PM [vite] hmr update /src/components/Oscilloscope.tsx
+11:23:01 PM [vite] hmr update /src/App.css
+11:23:11 PM [vite] hmr update /src/components/Knob.tsx
+11:23:20 PM [vite] vite.config.ts changed, restarting server...
+11:23:20 PM [vite] server restarted.
+11:23:38 PM [vite] hmr update /src/App.css
+11:23:47 PM [vite] hmr update /src/index.css
+11:23:54 PM [vite] hmr update /src/index.css
+11:23:54 PM [vite] hmr update /src/App.css
+11:24:20 PM [vite] hmr update /src/App.css
+11:24:20 PM [vite] hmr update /src/components/Oscilloscope.tsx
+11:25:14 PM [vite] hmr update /src/components/Oscilloscope.tsx
+11:25:14 PM [vite] hmr update /src/App.css
+11:25:16 PM [vite] hmr update /src/components/Oscilloscope.tsx
+11:25:16 PM [vite] hmr update /src/components/Knob.css
+11:25:16 PM [vite] hmr update /src/components/Knob.css
+11:25:19 PM [vite] vite.config.ts changed, restarting server...
+11:25:19 PM [vite] server restarted.
+11:25:32 PM [vite] hmr update /src/App.css
+11:25:44 PM [vite] hmr update /src/components/Knob.css
+11:25:44 PM [vite] hmr update /src/components/Oscilloscope.tsx
+11:25:44 PM [vite] hmr update /src/App.css
+11:26:01 PM [vite] hmr update /src/components/Oscilloscope.tsx
+11:26:01 PM [vite] hmr update /src/App.css
+11:26:01 PM [vite] hmr update /src/components/Knob.css
+11:26:03 PM [vite] hmr update /src/App.css
+11:26:03 PM [vite] hmr update /src/index.css
+11:27:57 PM [vite] hmr update /src/components/Knob.css
+11:28:07 PM [vite] hmr update /src/components/Knob.css
+11:30:00 PM [vite] hmr update /src/App.css
+11:30:13 PM [vite] hmr update /src/App.css
+11:31:01 PM [vite] hmr update /src/components/Knob.css
+11:31:01 PM [vite] hmr update /src/App.css
+11:31:25 PM [vite] hmr update /src/App.css
+11:31:37 PM [vite] hmr update /src/App.css
+11:31:39 PM [vite] hmr update /src/App.css
+11:31:39 PM [vite] hmr update /src/components/Knob.css
+11:31:43 PM [vite] hmr update /src/App.css
+11:31:43 PM [vite] hmr update /src/components/Knob.css
+11:32:16 PM [vite] hmr update /src/components/Knob.css
+11:32:16 PM [vite] hmr update /src/App.css
+11:32:58 PM [vite] hmr update /src/App.css
+11:33:12 PM [vite] hmr update /src/App.css
+11:33:32 PM [vite] hmr update /src/components/Oscilloscope.tsx
+11:33:47 PM [vite] hmr update /src/components/Oscilloscope.tsx
+11:33:53 PM [vite] hmr update /src/components/Knob.css
+11:33:53 PM [vite] hmr update /src/App.css
+11:34:40 PM [vite] hmr update /src/App.css
+11:35:07 PM [vite] hmr update /src/components/Oscilloscope.tsx
+11:35:50 PM [vite] hmr update /src/components/Oscilloscope.tsx
+11:35:50 PM [vite] hmr update /src/components/Knob.css
+11:35:50 PM [vite] hmr update /src/App.css
+11:35:51 PM [vite] hmr update /src/components/Oscilloscope.tsx
+11:35:55 PM [vite] hmr update /src/components/Oscilloscope.tsx
+11:35:55 PM [vite] hmr update /src/components/Oscilloscope.tsx
+11:35:56 PM [vite] hmr update /src/App.css
+11:36:41 PM [vite] hmr update /src/components/Oscilloscope.tsx
+11:37:14 PM [vite] hmr update /src/components/Knob.css
+11:37:14 PM [vite] hmr update /src/App.css
+11:37:34 PM [vite] hmr update /src/components/Knob.css
+11:37:34 PM [vite] hmr update /src/App.css
+11:37:42 PM [vite] hmr update /src/components/Knob.css
+11:37:42 PM [vite] hmr update /src/App.css
+11:38:18 PM [vite] hmr update /src/components/Oscilloscope.tsx
+11:38:35 PM [vite] hmr update /src/components/Oscilloscope.tsx
+11:38:36 PM [vite] hmr update /src/components/Oscilloscope.tsx
+11:39:35 PM [vite] hmr update /src/components/Oscilloscope.tsx
+11:40:24 PM [vite] hmr update /src/components/Oscilloscope.tsx
+11:40:50 PM [vite] hmr update /src/components/Oscilloscope.tsx
+11:42:52 PM [vite] hmr update /src/components/Oscilloscope.tsx
+11:42:53 PM [vite] hmr update /src/components/Oscilloscope.tsx
+11:43:08 PM [vite] hmr update /src/components/Oscilloscope.tsx
+11:45:51 PM [vite] hmr update /src/App.css
+11:46:34 PM [vite] hmr update /src/App.css
+11:47:22 PM [vite] hmr update /src/App.css
+11:47:32 PM [vite] hmr update /src/App.css
+11:48:04 PM [vite] hmr update /src/App.css
+11:48:11 PM [vite] hmr update /src/App.css
+11:49:23 PM [vite] hmr update /src/App.tsx
+11:49:27 PM [vite] hmr update /src/App.tsx
+11:49:28 PM [vite] hmr update /src/App.css
+11:49:36 PM [vite] hmr update /src/App.tsx
+11:49:36 PM [vite] hmr update /src/App.css
+11:50:49 PM [vite] hmr update /src/components/Oscilloscope.tsx
+11:50:51 PM [vite] hmr update /src/components/Oscilloscope.tsx
+11:50:53 PM [vite] hmr update /src/components/Oscilloscope.tsx
+11:50:54 PM [vite] hmr update /src/App.tsx
+11:51:01 PM [vite] hmr update /src/App.tsx
+11:51:01 PM [vite] hmr update /src/components/Oscilloscope.tsx
+11:51:46 PM [vite] hmr update /src/App.css
+11:51:46 PM [vite] hmr update /src/App.tsx
+11:51:46 PM [vite] hmr update /src/components/Oscilloscope.tsx
+11:52:18 PM [vite] hmr update /src/App.tsx
+11:52:24 PM [vite] hmr update /src/App.tsx
+11:52:27 PM [vite] hmr update /src/App.tsx
+11:53:40 PM [vite] hmr update /src/components/Oscilloscope.tsx
+11:53:58 PM [vite] hmr update /src/components/Oscilloscope.tsx
+11:54:48 PM [vite] hmr update /src/components/Oscilloscope.tsx
+11:55:18 PM [vite] hmr update /src/components/Oscilloscope.tsx
+11:55:33 PM [vite] hmr update /src/components/Oscilloscope.tsx
+11:56:17 PM [vite] hmr update /src/components/Oscilloscope.tsx
+11:56:52 PM [vite] hmr update /src/components/Oscilloscope.tsx
+11:57:08 PM [vite] hmr update /src/components/Oscilloscope.tsx
+11:58:21 PM [vite] hmr update /src/components/Oscilloscope.tsx
+11:58:30 PM [vite] hmr update /src/components/Oscilloscope.tsx
+11:59:29 PM [vite] hmr update /src/components/Oscilloscope.tsx
+12:01:06 AM [vite] hmr update /src/components/Oscilloscope.tsx
+12:01:27 AM [vite] hmr update /src/components/Oscilloscope.tsx
+12:04:00 AM [vite] hmr update /src/components/Oscilloscope.tsx
+12:04:00 AM [vite] Internal server error: /Users/benjaminuribe/Desktop/Breadcrumb-Studio/oscilloscope/src/components/Oscilloscope.tsx: Identifier 'coreRadius' has already been declared. (349:12)
+
+  347 |       
+  348 |       // Central sphere size (proportional to main sphere)
+> 349 |       const coreRadius = radius * 0.06;
+      |             ^
+  350 |       
+  351 |       // Draw central core with multiple glow layers
+  352 |       const coreGlowLayers = [
+  Plugin: vite:react-babel
+  File: /Users/benjaminuribe/Desktop/Breadcrumb-Studio/oscilloscope/src/components/Oscilloscope.tsx:349:12
+  347|        
+  348|        // Central sphere size (proportional to main sphere)
+  349|        const coreRadius = radius * 0.06;
+     |              ^
+  350|        
+  351|        // Draw central core with multiple glow layers
+      at constructor (/Users/benjaminuribe/Desktop/Breadcrumb-Studio/oscilloscope/node_modules/@babel/parser/lib/index.js:367:19)
+      at TypeScriptParserMixin.raise (/Users/benjaminuribe/Desktop/Breadcrumb-Studio/oscilloscope/node_modules/@babel/parser/lib/index.js:6624:19)
+      at TypeScriptScopeHandler.checkRedeclarationInScope (/Users/benjaminuribe/Desktop/Breadcrumb-Studio/oscilloscope/node_modules/@babel/parser/lib/index.js:1646:19)
+      at TypeScriptScopeHandler.declareName (/Users/benjaminuribe/Desktop/Breadcrumb-Studio/oscilloscope/node_modules/@babel/parser/lib/index.js:1612:12)
+      at TypeScriptScopeHandler.declareName (/Users/benjaminuribe/Desktop/Breadcrumb-Studio/oscilloscope/node_modules/@babel/parser/lib/index.js:4909:11)
+      at TypeScriptParserMixin.declareNameFromIdentifier (/Users/benjaminuribe/Desktop/Breadcrumb-Studio/oscilloscope/node_modules/@babel/parser/lib/index.js:7594:16)
+      at TypeScriptParserMixin.checkIdentifier (/Users/benjaminuribe/Desktop/Breadcrumb-Studio/oscilloscope/node_modules/@babel/parser/lib/index.js:7590:12)
+      at TypeScriptParserMixin.checkLVal (/Users/benjaminuribe/Desktop/Breadcrumb-Studio/oscilloscope/node_modules/@babel/parser/lib/index.js:7527:12)
+      at TypeScriptParserMixin.parseVarId (/Users/benjaminuribe/Desktop/Breadcrumb-Studio/oscilloscope/node_modules/@babel/parser/lib/index.js:13488:10)
+      at TypeScriptParserMixin.parseVarId (/Users/benjaminuribe/Desktop/Breadcrumb-Studio/oscilloscope/node_modules/@babel/parser/lib/index.js:9805:11)
+      at TypeScriptParserMixin.parseVar (/Users/benjaminuribe/Desktop/Breadcrumb-Studio/oscilloscope/node_modules/@babel/parser/lib/index.js:13459:12)
+      at TypeScriptParserMixin.parseVarStatement (/Users/benjaminuribe/Desktop/Breadcrumb-Studio/oscilloscope/node_modules/@babel/parser/lib/index.js:13306:10)
+      at TypeScriptParserMixin.parseVarStatement (/Users/benjaminuribe/Desktop/Breadcrumb-Studio/oscilloscope/node_modules/@babel/parser/lib/index.js:9469:31)
+      at TypeScriptParserMixin.parseStatementContent (/Users/benjaminuribe/Desktop/Breadcrumb-Studio/oscilloscope/node_modules/@babel/parser/lib/index.js:12927:23)
+      at TypeScriptParserMixin.parseStatementContent (/Users/benjaminuribe/Desktop/Breadcrumb-Studio/oscilloscope/node_modules/@babel/parser/lib/index.js:9569:18)
+      at TypeScriptParserMixin.parseStatementLike (/Users/benjaminuribe/Desktop/Breadcrumb-Studio/oscilloscope/node_modules/@babel/parser/lib/index.js:12843:17)
+      at TypeScriptParserMixin.parseStatementListItem (/Users/benjaminuribe/Desktop/Breadcrumb-Studio/oscilloscope/node_modules/@babel/parser/lib/index.js:12823:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/benjaminuribe/Desktop/Breadcrumb-Studio/oscilloscope/node_modules/@babel/parser/lib/index.js:13392:61)
+      at TypeScriptParserMixin.parseBlockBody (/Users/benjaminuribe/Desktop/Breadcrumb-Studio/oscilloscope/node_modules/@babel/parser/lib/index.js:13385:10)
+      at TypeScriptParserMixin.parseBlock (/Users/benjaminuribe/Desktop/Breadcrumb-Studio/oscilloscope/node_modules/@babel/parser/lib/index.js:13373:10)
+      at TypeScriptParserMixin.parseFunctionBody (/Users/benjaminuribe/Desktop/Breadcrumb-Studio/oscilloscope/node_modules/@babel/parser/lib/index.js:12174:24)
+      at TypeScriptParserMixin.parseArrowExpression (/Users/benjaminuribe/Desktop/Breadcrumb-Studio/oscilloscope/node_modules/@babel/parser/lib/index.js:12149:10)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/Users/benjaminuribe/Desktop/Breadcrumb-Studio/oscilloscope/node_modules/@babel/parser/lib/index.js:11759:12)
+      at TypeScriptParserMixin.parseExprAtom (/Users/benjaminuribe/Desktop/Breadcrumb-Studio/oscilloscope/node_modules/@babel/parser/lib/index.js:11395:23)
+      at TypeScriptParserMixin.parseExprAtom (/Users/benjaminuribe/Desktop/Breadcrumb-Studio/oscilloscope/node_modules/@babel/parser/lib/index.js:4793:20)
+      at TypeScriptParserMixin.parseExprSubscripts (/Users/benjaminuribe/Desktop/Breadcrumb-Studio/oscilloscope/node_modules/@babel/parser/lib/index.js:11145:23)
+      at TypeScriptParserMixin.parseUpdate (/Users/benjaminuribe/Desktop/Breadcrumb-Studio/oscilloscope/node_modules/@babel/parser/lib/index.js:11130:21)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/benjaminuribe/Desktop/Breadcrumb-Studio/oscilloscope/node_modules/@babel/parser/lib/index.js:11110:23)
+      at TypeScriptParserMixin.parseMaybeUnary (/Users/benjaminuribe/Desktop/Breadcrumb-Studio/oscilloscope/node_modules/@babel/parser/lib/index.js:9890:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (/Users/benjaminuribe/Desktop/Breadcrumb-Studio/oscilloscope/node_modules/@babel/parser/lib/index.js:10963:61)
+      at TypeScriptParserMixin.parseExprOps (/Users/benjaminuribe/Desktop/Breadcrumb-Studio/oscilloscope/node_modules/@babel/parser/lib/index.js:10968:23)
+      at TypeScriptParserMixin.parseMaybeConditional (/Users/benjaminuribe/Desktop/Breadcrumb-Studio/oscilloscope/node_modules/@babel/parser/lib/index.js:10945:23)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/benjaminuribe/Desktop/Breadcrumb-Studio/oscilloscope/node_modules/@babel/parser/lib/index.js:10895:21)
+      at TypeScriptParserMixin.parseMaybeAssign (/Users/benjaminuribe/Desktop/Breadcrumb-Studio/oscilloscope/node_modules/@babel/parser/lib/index.js:9839:20)
+      at /Users/benjaminuribe/Desktop/Breadcrumb-Studio/oscilloscope/node_modules/@babel/parser/lib/index.js:10864:39
+      at TypeScriptParserMixin.allowInAnd (/Users/benjaminuribe/Desktop/Breadcrumb-Studio/oscilloscope/node_modules/@babel/parser/lib/index.js:12495:16)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (/Users/benjaminuribe/Desktop/Breadcrumb-Studio/oscilloscope/node_modules/@babel/parser/lib/index.js:10864:17)
+      at TypeScriptParserMixin.parseVar (/Users/benjaminuribe/Desktop/Breadcrumb-Studio/oscilloscope/node_modules/@babel/parser/lib/index.js:13460:91)
+      at TypeScriptParserMixin.parseVarStatement (/Users/benjaminuribe/Desktop/Breadcrumb-Studio/oscilloscope/node_modules/@babel/parser/lib/index.js:13306:10)
+      at TypeScriptParserMixin.parseVarStatement (/Users/benjaminuribe/Desktop/Breadcrumb-Studio/oscilloscope/node_modules/@babel/parser/lib/index.js:9469:31)
+      at TypeScriptParserMixin.parseStatementContent (/Users/benjaminuribe/Desktop/Breadcrumb-Studio/oscilloscope/node_modules/@babel/parser/lib/index.js:12927:23)
+      at TypeScriptParserMixin.parseStatementContent (/Users/benjaminuribe/Desktop/Breadcrumb-Studio/oscilloscope/node_modules/@babel/parser/lib/index.js:9569:18)
+      at TypeScriptParserMixin.parseStatementLike (/Users/benjaminuribe/Desktop/Breadcrumb-Studio/oscilloscope/node_modules/@babel/parser/lib/index.js:12843:17)
+      at TypeScriptParserMixin.parseStatementListItem (/Users/benjaminuribe/Desktop/Breadcrumb-Studio/oscilloscope/node_modules/@babel/parser/lib/index.js:12823:17)
+      at TypeScriptParserMixin.parseBlockOrModuleBlockBody (/Users/benjaminuribe/Desktop/Breadcrumb-Studio/oscilloscope/node_modules/@babel/parser/lib/index.js:13392:61)
+      at TypeScriptParserMixin.parseBlockBody (/Users/benjaminuribe/Desktop/Breadcrumb-Studio/oscilloscope/node_modules/@babel/parser/lib/index.js:13385:10)
+      at TypeScriptParserMixin.parseBlock (/Users/benjaminuribe/Desktop/Breadcrumb-Studio/oscilloscope/node_modules/@babel/parser/lib/index.js:13373:10)
+      at TypeScriptParserMixin.parseFunctionBody (/Users/benjaminuribe/Desktop/Breadcrumb-Studio/oscilloscope/node_modules/@babel/parser/lib/index.js:12174:24)
+      at TypeScriptParserMixin.parseArrowExpression (/Users/benjaminuribe/Desktop/Breadcrumb-Studio/oscilloscope/node_modules/@babel/parser/lib/index.js:12149:10)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (/Users/benjaminuribe/Desktop/Breadcrumb-Studio/oscilloscope/node_modules/@babel/parser/lib/index.js:11759:12)
+12:04:22 AM [vite] hmr update /src/components/Oscilloscope.tsx
+12:04:40 AM [vite] hmr update /src/components/Oscilloscope.tsx
+12:06:43 AM [vite] hmr update /src/components/Oscilloscope.tsx
+12:07:00 AM [vite] hmr update /src/components/Oscilloscope.tsx
+12:07:02 AM [vite] hmr update /src/components/Oscilloscope.tsx
+12:08:09 AM [vite] hmr update /src/App.tsx
+12:08:39 AM [vite] hmr update /src/components/Oscilloscope.tsx
+12:08:42 AM [vite] hmr update /src/components/Oscilloscope.tsx
+12:08:44 AM [vite] hmr update /src/components/Oscilloscope.tsx
+12:08:57 AM [vite] hmr update /src/components/Oscilloscope.tsx
+12:09:28 AM [vite] hmr update /src/components/Oscilloscope.tsx
+12:13:18 AM [vite] hmr update /src/App.css
+12:13:34 AM [vite] hmr update /src/App.css
+12:14:21 AM [vite] hmr update /src/App.tsx
+12:14:24 AM [vite] hmr update /src/App.tsx
+12:14:41 AM [vite] hmr update /src/App.css
+12:14:52 AM [vite] hmr update /src/App.css
+12:14:52 AM [vite] hmr update /src/App.tsx
+12:15:22 AM [vite] hmr update /src/App.css
+12:16:50 AM [vite] hmr update /src/App.tsx
+12:17:02 AM [vite] hmr update /src/App.tsx
+12:17:39 AM [vite] hmr update /src/components/FisheyeFilter.tsx
+12:17:47 AM [vite] hmr update /src/components/FisheyeFilter.css
+12:18:21 AM [vite] hmr update /src/components/FisheyeFilter.tsx
+12:18:32 AM [vite] hmr update /src/components/FisheyeFilter.css
+12:18:54 AM [vite] hmr update /src/components/FisheyeFilter.tsx
+12:19:07 AM [vite] hmr update /src/components/FisheyeFilter.css
+12:19:14 AM [vite] hmr update /src/App.tsx
+12:19:24 AM [vite] hmr update /src/components/FisheyeFilter.css
+12:19:24 AM [vite] hmr update /src/App.tsx
+12:19:24 AM [vite] hmr update /src/components/FisheyeFilter.tsx
+12:20:21 AM [vite] hmr update /src/App.tsx
+12:20:21 AM [vite] hmr update /src/components/FisheyeFilter.css
+12:20:21 AM [vite] hmr update /src/components/FisheyeFilter.tsx
+12:21:27 AM [vite] hmr update /src/App.css
+12:21:30 AM [vite] hmr update /src/App.css
+12:21:41 AM [vite] hmr update /src/App.css
+12:21:46 AM [vite] hmr update /src/App.css
+12:22:04 AM [vite] hmr update /src/App.css
+12:22:08 AM [vite] hmr update /src/App.css
+12:22:29 AM [vite] hmr update /src/App.css
+10:48:46 AM [vite] hmr update /src/components/Knob.tsx
+10:48:46 AM [vite] vite.config.ts changed, restarting server...
+10:48:46 AM [vite] server restarted.
+
+  ➜  Local:   http://localhost:3000/
+  ➜  Network: http://192.168.1.101:3000/
+  ➜  Network: http://172.31.251.214:3000/
+10:49:29 AM [vite] vite.config.ts changed, restarting server...
+10:49:29 AM [vite] server restarted.
+
+  ➜  Local:   http://localhost:3000/oscilloscope/
+  ➜  Network: http://192.168.1.101:3000/oscilloscope/
+  ➜  Network: http://172.31.251.214:3000/oscilloscope/
+10:49:40 AM [vite] vite.config.ts changed, restarting server...
+10:49:40 AM [vite] server restarted.

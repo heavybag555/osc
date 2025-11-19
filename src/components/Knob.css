@@ -1,0 +1,77 @@
+.knob-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  margin: 10px 0;
+  user-select: none;
+}
+
+.knob-label {
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #555;
+  text-shadow: none;
+}
+
+.knob-outer {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: #b8c2bd; /* Game Boy Gray */
+  box-shadow: 
+    0 4px 8px rgba(0,0,0,0.2),
+    0 10px 20px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: ns-resize;
+  position: relative;
+  border: none;
+}
+
+/* Grip texture */
+.knob-outer::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  border-radius: 50%;
+  background: repeating-conic-gradient(
+    from 0deg,
+    #b8c2bd 0deg 8deg,
+    #a8b2ad 8deg 10deg
+  );
+  mask-image: radial-gradient(black 60%, transparent 70%); /* Only show on edges if desired, or full */
+  /* Actually let's just keep it subtle */
+  opacity: 1;
+}
+
+.knob-inner {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: #111;
+  box-shadow: 
+    inset 0 1px 3px rgba(255,255,255,0.1),
+    0 2px 4px rgba(0,0,0,0.3);
+  position: relative;
+  z-index: 2;
+}
+
+.knob-indicator {
+  width: 4px;
+  height: 14px;
+  background: #e0e0e0;
+  position: absolute;
+  top: 4px;
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 2px;
+  box-shadow: 0 0 2px rgba(255,255,255,0.3);
+}

@@ -1,0 +1,233 @@
+:root {
+  --portal-white: #fdfdfd;
+  --portal-grey: #d0d0d0;
+  --portal-black: #1a1a1a;
+  --portal-blue: #3e92cc;
+  --portal-orange: #eb7d34;
+  --portal-glow: rgba(62, 146, 204, 0.4);
+}
+
+body {
+  margin: 0;
+  background-image: url("https://www.usda.gov/sites/default/files/usda_blog_images/2936_14765026726_b8a02d3989.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: var(--portal-black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+}
+
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.tv-chassis {
+  background: #d6cfc2; /* 80s IBM Beige */
+  padding: 40px;
+  border-radius: 40px; /* Slightly boxier but still rounded */
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.6),
+    inset 0 -10px 20px rgba(0, 0, 0, 0.1),
+    inset 0 2px 5px rgba(255, 255, 255, 0.4); /* Top highlight */
+  display: flex;
+  gap: 40px;
+  width: 950px;
+  height: 550px;
+  position: relative;
+  border: none; /* Seamless look */
+  align-items: center;
+}
+
+/* Aesthetic stripe often seen on Portal equipment */
+.tv-chassis::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  right: 0;
+  width: 100%;
+  height: 2px;
+  background: rgba(0, 0, 0, 0.05);
+  z-index: 0;
+  pointer-events: none;
+}
+
+/* Screen Area */
+.tv-screen-bezel {
+  flex: 2;
+  background: #e3dac9; /* Lighter IBM Beige */
+  border-radius: 30px;
+  padding: 35px;
+  /* Deep recessed effect */
+  box-shadow: inset 0 0 60px rgba(0, 0, 0, 0.7),
+    inset 10px 10px 40px rgba(0, 0, 0, 0.6),
+    inset -5px -5px 20px rgba(255, 255, 255, 0.5),
+    /* bounce light */ 0 2px 4px rgba(255, 255, 255, 0.1);
+  position: relative;
+  display: flex;
+  z-index: 1;
+  height: 100%;
+  box-sizing: border-box;
+  border-top: 2px solid rgba(0, 0, 0, 0.2);
+  border-left: 2px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+  border-right: 2px solid rgba(255, 255, 255, 0.4);
+}
+
+.tv-screen {
+  width: 100%;
+  height: 100%;
+  background: #050505;
+  border-radius: 50% / 20%; /* More aggressive fish-eye curve */
+  position: relative;
+  overflow: hidden;
+  border: 4px solid #111;
+  transform: perspective(1000px);
+  /* box-shadow now applied dynamically via inline styles in App.tsx */
+}
+
+.tv-screen canvas {
+  /* Slight zoom to enhance the immersion/fish-eye feel */
+  transform: scale(1.02);
+}
+
+.screen-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: radial-gradient(
+    circle at 50% 50%,
+    rgba(255, 255, 255, 0) 40%,
+    rgba(0, 0, 0, 0.1) 70%,
+    rgba(0, 0, 0, 0.5) 90%,
+    rgba(0, 0, 0, 0.8) 100%
+  );
+  pointer-events: none;
+  border-radius: inherit;
+  z-index: 2;
+  box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.7); /* Deep vignette */
+}
+
+/* Glass reflection glare */
+.screen-overlay::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+    105deg,
+    rgba(255, 255, 255, 0.2) 0%,
+    rgba(255, 255, 255, 0.05) 30%,
+    rgba(255, 255, 255, 0) 50%
+  );
+  border-radius: inherit;
+  z-index: 1;
+}
+
+/* Sun highlight */
+.screen-overlay::after {
+  content: "";
+  position: absolute;
+  top: 8%;
+  right: 8%;
+  width: 100px;
+  height: 60px;
+  background: radial-gradient(
+    ellipse at center,
+    rgba(255, 255, 255, 0.6) 0%,
+    rgba(255, 255, 255, 0) 70%
+  );
+  border-radius: 50%;
+  filter: blur(5px);
+  transform: rotate(-25deg);
+  box-shadow: 0 0 30px 10px rgba(255, 255, 255, 0.3);
+  z-index: 2;
+}
+
+/* Controls Area */
+.tv-controls {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 35px; /* Match screen bezel padding */
+
+  /* Match .tv-screen-bezel recessed look */
+  background: #e3dac9; /* Lighter IBM Beige */
+  border-radius: 30px;
+
+  /* Deep recessed effect - matching screen bezel exactly */
+  box-shadow: inset 0 0 60px rgba(0, 0, 0, 0.7),
+    inset 10px 10px 40px rgba(0, 0, 0, 0.6),
+    inset -5px -5px 20px rgba(255, 255, 255, 0.5),
+    /* bounce light */ 0 2px 4px rgba(255, 255, 255, 0.1);
+
+  border-top: 2px solid rgba(0, 0, 0, 0.2);
+  border-left: 2px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+  border-right: 2px solid rgba(255, 255, 255, 0.4);
+
+  z-index: 1;
+  height: 100%; /* Match screen bezel height */
+  box-sizing: border-box;
+  position: relative;
+}
+
+.knobs-panel {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+  padding: 20px;
+  align-items: center;
+  justify-items: center;
+}
+
+.speaker-grill {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 10px 20px;
+  opacity: 1;
+}
+
+.grill-line {
+  height: 6px;
+  background: var(--portal-black);
+  border-radius: 3px;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+.tv-brand {
+  text-align: center;
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 2px;
+  color: var(--portal-black);
+  text-transform: uppercase;
+  margin-top: 20px;
+  transform: none;
+  text-shadow: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.tv-brand::before {
+  content: "";
+  display: block;
+  width: 20px;
+  height: 20px;
+  background: var(--portal-black);
+  border-radius: 50%; /* Aperture logo simplified */
+}
