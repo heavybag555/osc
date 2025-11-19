@@ -12,7 +12,7 @@ export function ScreenEffects() {
   })
 
   return (
-    <EffectComposer disableNormalPass>
+    <EffectComposer>
       <Bloom 
         luminanceThreshold={bloomThreshold} 
         mipmapBlur 

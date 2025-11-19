@@ -26,7 +26,7 @@ export function LissajousBeam() {
   // We'll use a ref to track total time for smooth animation
   const timeRef = useRef(0)
 
-  useFrame((state, deltaT) => {
+  useFrame((_state, deltaT) => {
     timeRef.current += deltaT * speed
     
     // Calculate the full curve for this frame

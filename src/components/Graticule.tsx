@@ -1,6 +1,5 @@
 import { Line } from '@react-three/drei'
 import { useMemo } from 'react'
-import * as THREE from 'three'
 
 export function Graticule() {
   const { lines } = useMemo(() => {
@@ -27,7 +26,7 @@ export function Graticule() {
 
   return (
     <group position={[0, 0, -0.5]}>
-      {lines.map((line, index) => (
+      {lines.map((line) => (
         <Line
           key={line.key}
           points={line.points}
