@@ -4,9 +4,9 @@ import react from "@vitejs/plugin-react";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react()],
-  base: '/oscilloscope/', // GitHub Pages base path
+  base: "/", // Changed for local development
   server: {
-    host: "0.0.0.0", // Force IPv4 binding to all interfaces
+    host: "localhost",
     port: 5173,
     strictPort: false,
   },
